@@ -2,6 +2,9 @@
 Vanishing Point Navigation in environment
 
 Para compilar:
+
 $ cmake .
+
 $ make.
+
 ./VISION
