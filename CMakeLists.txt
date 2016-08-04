@@ -1,5 +1,5 @@
 ##############################
-PROJECT( FFME )
+PROJECT( VISION )
 ##############################
 cmake_minimum_required (VERSION 2.6)
 
@@ -20,6 +20,6 @@ set(SOURCE_FILES
 
 
 # Add executable and target link libraries
-ADD_EXECUTABLE( FFME ${SOURCE_FILES})
-TARGET_LINK_LIBRARIES( FFME ${OpenCV_LIBS})
+ADD_EXECUTABLE( VISION ${SOURCE_FILES})
+TARGET_LINK_LIBRARIES( VISION ${OpenCV_LIBS})
 
